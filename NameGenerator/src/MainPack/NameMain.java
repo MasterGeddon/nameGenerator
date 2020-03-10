@@ -1,33 +1,19 @@
-package MainPack; 
+package MainPack;
 
- 
+import Generator.NameGenerator;
 
-import Generator.NameGenerator; 
+import Visuell.NameFrame;
 
-import Visuell.NameFrame; 
+public class NameMain {
 
- 
-
-public class NameMain { 
-
- 
-
-public static void main(String[] args) { 
+	public static void main(String[] args) {
 
 // TODO Auto-generated method stub 
 
- 
-
 //NameGenerator nG = new NameGenerator(); 
 
- 
+		NameFrame Frame = new NameFrame();
 
-NameFrame Frame = new NameFrame(); 
+	}
 
- 
-
-} 
-
- 
-
-} 
+}
